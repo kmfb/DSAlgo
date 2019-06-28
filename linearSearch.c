@@ -14,8 +14,8 @@ void main() {
     int elementsCount = sizeof(arr) / sizeof(arr[0]);
     int searchNum = 4;
     int result = search(arr, elementsCount, searchNum);
-    (result == -1) ? printf("Element is not present in array")
-                  : printf("Element is present at index %d\n", result);
+    (result == -1) ? printf("Element is not present in array.\n")
+                  : printf("Element is present at index %d.\n", result);
 
     
 }
